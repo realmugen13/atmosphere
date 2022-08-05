@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,900&display=swap" rel="stylesheet">
+  <script src="./script.js"></script>
+</head>
+<body>
+    <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                <div class="loqo"> 
+                <img src="./image/white-logo.png" alt="">
+                <a class="toggle-button" href=""><img class="menu" src="./image/white-menu.png" alt=""></a>
+                </div>
+                <a class="li" href="#"><li>О нас</li></a>
+                <a class="li"  href="#"><li>Тренера</li></a>
+                <a class="li" href="#"><li>Расписание Тренировок</li></a>
+                <a class="li" href="#"><li>Контакты</li></a>
+        </ul>
+        <!-- <form class="search">
+          <input type="text" placeholder="Поиск по запросу"><button type="submit">Поиск</button></form> -->
+        <div class="bt">
+            <a class="btn" href="#">Записаться на бесплатную тренировку</a>
+        </div>
+        
+          </nav>
+<br>
+<br>
+
+          <header class="header">
+            <video playsinline autoplay muted loop <!--controls="controls"-->>
+                <source src="./atmosphere.mp4 " type="video/mp4" >
+           </video>
+           <div>
+            <h1 class="header-h1 h23">Фитнесс, Спа, 
+              Зоны отдыха на высшем уровне</h1>
+        </div>
+        </header>
+        <section class="service">
+            <h1>Наши Сервисы</h1>
+            <p class="ser-p">Atmosfera Private Fitness в списке лучших фитнес клубов Москвы, благодаря команде профессионалов и личных тренеров.</p>
+            <div class="service-box">
+                <div class="box">
+                    <img src="./image/khudyakov.jpg">
+                    <div class="info">
+                        <h2>DMITRIY KHUDYAKOV</h2>
+                        <h3>Тренер по смешанным единоборством</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione et eos debitis consectetur aperiam dolorem molestias quibusdam quas animi molestiae?</p>
+                        <button class="btnqq">Подробнее</button>
+                        <div class="social-link">
+                          <a href="#"><img src="./image/twitter.png" alt=""></a>
+                          <a href="#"><img src="./image/inst.png" alt=""></a>
+                          <a href="#"><img src="./image/facebook.png" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="./image/girl.jpg">
+                    <div class="info">
+                        <h2>Elizaveta Grigorenko</h2>
+                        <h3>Персональный Тренер</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste assumenda, excepturi adipisci odit tempora minima explicabo saepe reprehenderit quae voluptas!</p>
+                        <button class="btnqq">Подробнее</button>
+                        <div class="social-link">
+                          <a href="#"><img class="sc-icons" src="./image/twitter.png" alt=""></a>
+                          <a href="#"><img src="./image/inst.png" alt=""></a>
+                          <a href="#"><img src="./image/facebook.png" alt=""></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="box">
+                    <img src="./image/2.jpg">
+                    <div class="info">
+                        <h2>Vladimir Vladimirovich</h2>
+                        <h3>Персональный Тренер по Bodybuilding'у</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, delectus beatae officia atque quam expedita autem consectetur error. Tenetur, nobis?</p>
+                        <button class="btnqq">Подробнее</button>
+                        <div class="social-link">
+                          <a href="#"><img src="./image/twitter.png" alt=""></a>
+                          <a href="#"><img src="./image/inst.png" alt=""></a>
+                          <a href="#"><img src="./image/facebook.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<section>
+    <div class="slideshow-container">
+        <h1 class="slider-h1">Наши Зоны</h1>
+        <div class="mySlides fade">
+          <!-- <div class="numbertext">1 / 3</div> -->
+          <img class="slider-image" src="./image/spa.jpg" style="width:100%">
+          <div class="text"><h1 class="clrgreen">Спа Салон</h1></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img class="slider-image" src="./image/fitbas.jpg" style="width:100%">
+          <div class="text"><h1 class="clrgreen">Бассейн</h1></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img class="slider-image" src="./image/fitnes zal.jpg" style="width:100%">
+          <div class="text"> <h1 class="clrgreen">Фитнесс Зал</h1></div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        let Images = document.getElementsByClassName('slider-image')
+
+          console.log(Images);
+          for(image of Images) {
+            image.addEventListener('click', () => {
+                plusSlides(1)
+            })
+          }
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+
+          
+          
+
+
+
+
+
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+</section>
+<section class="abt">
+  <div class="about">
+    <h1 class="about-h1">
+      ATMOSFERA PRIVATE FITNESS
+    </h1>
+    <p class="about-p">
+      Клуб камерного формата, где созданы условия для Вашего комфорта и обеспечен высокий уровень сервиса. Здесь Вы можете тренироваться на современном оборудовании и с соблюдением личного пространства. Отдохнуть от городской суеты в термальном комплексе с панорамным видом, с высоты 240 метров. Провести время с друзьями и бизнес партнёрами в лаунж пространстве на втором этаже клуба. Оттачивать свои навыки игры в гольф с ведущими специалистами России. Достигать безопасно и максимально эффективно желаемые фитнес результаты, за счёт команды профессионалов и научно-методического сопровождения.
+
+      <span>Интерьеры клуба</span>  удостоились награды <span>Лучшие интерьеры России</span>, в номинации "Общественные пространства".
+      <span>Команда клуба</span> получила награду в номинации <span>"Открытие года"</span> на Global Fitness Innovation.
+    </p>
+  </div>
+</section>
+
+
+   
+<section class="contact">
+  <div class="contact-box">
+    <div class="left"></div>
+    <div class="right">
+      <h2>Посетить Нас</h2>
+      <input type="text" class="field" placeholder="Ваше Имя">
+      <input type="email" class="field" placeholder="Ваш @mail">
+      <input type="number" class="field" placeholder="Ваш номер телефона">
+      <textarea class="field area" placeholder="Сообщение"></textarea>
+      <button class="btn">Отправить</button>
+    </div>
+  </div>
+</section>
+        
+
+        
+
+
+<footer class="footer">
+<div class="footer-container">
+<div class="ft-text">© 2022 All Rights Reserved</div>
+<div class="social">
+<a href="https://instagram.com/real_mugen" target="_blank"><img src="./image/inst.png" alt=""></a>
+<a href="https://github.com/rinnatensei" target="_blank"><img src="./image/gt.png" alt=""></a>
+  </div>
+  </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
